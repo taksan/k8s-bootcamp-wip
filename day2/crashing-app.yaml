@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: ci
+spec:
+  containers:
+  - name: main
+    image: taksan/k8s-bootcamp-cimple:v1
+    env:
+      - name: PORT
+        value: 3000
