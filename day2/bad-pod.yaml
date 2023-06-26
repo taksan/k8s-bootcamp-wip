@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
- name: webapp
-spec:
- containers:
- - name: web
-   image: bad-pod-for-sure:latest
-
